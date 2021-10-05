@@ -7,4 +7,167 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /*background-color: #1c5380;*/
 }
+
+.container {
+  background-color:#1c5380;
+  width: auto;
+  text-align: center;
+  height: 80%;
+  justify-content: space-between
+  ;
+
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+
+}
+
+.box-header, .tabla {
+  display: flex;
+  flex-direction: column;
+
+} 
+
+.telefonos {
+  width: auto;
+  float: left;
+  position: relative;
+  background-color: white;
+}
+
+
+.entrada-instagram {
+  float: inline-start;
+}
+
+button {
+  background-color: #1c5380;
+  border: 1px solid navy;
+  box-shadow: navy;
+  color: #8fa7bd;
+  font-weight: bold;
+  align-items: center;
+}
+
+.home-button {
+  float: inline-start;
+}
+
+.box-header {
+  background-color: white;
+  justify-content: space-between;
+}
+
+.cuadro {
+  right: auto;
+  width: 60%;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.texto {
+  text-align: left;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.logos-finales {
+  text-align: center;
+  justify-content:space-around;
+  position: absolute;
+}
+
+footer {
+  text-align: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+nav {
+  color: #7b7f81;
+  font-weight: bold;
+}
+
+nav a {
+  color: #06365f;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+}
+
+.column1 {
+  background-color: red;
+  width: 40%;
+}
+
+.column2 {
+  background-color: green;
+  width: 40%;
+}
+
+.fila1 {
+  background-color: greenyellow;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
+
+.fila2 {
+  background-color: hotpink;
+  width: inherit;
+}
+
+.fila3 {
+  background-color: indigo;
+}
+
+* {
+  border: 1px solid red;
+}
+
+
+.tabla {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+}
+.column1, .column2 {
+
+}
+
+.frame, .relleno {
+  position: absolute;
+}
+
+.frame {
+  z-index: 1;
+  width: inherit;
+}
+
+.relleno {
+  z-index: 2;
+  width: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
