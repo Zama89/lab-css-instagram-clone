@@ -7,31 +7,24 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
- /* background-color: #1c5380;*/
+  /*background-color: #1c5380;*/
 }
 
 .container {
-  position: relative;  /*Parent MUST be relative*/
-  z-index: 2;
+  background-color:#1c5380;
+  width: auto;
+  text-align: center;
+  height: 80%;
+  justify-content: space-between
+  ;
 
-  
-  /*Set width/height of the div in 'parent'*/
-  width: 100%;
-  height: 100%;
 }
-.container:before {
-  content: "";
-  position: absolute; /*set 'child' to be absolute*/
-  z-index: -1;  /*Make this lower so text appears in front*/
-  
-  
-  
-  /*You can choose to align it left, right, top or bottom here*/
-  top: 0;
-  right: 0;
-  bottom: 60%;
-  left: 0;
-  background: #1c5380;
+
+header {
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+
 }
 
 .box-header, .tabla {
@@ -44,6 +37,7 @@ body {
   width: auto;
   float: right;
   position: relative;
+  background-color: white;
   padding-right: 15px;
 }
 
@@ -51,26 +45,24 @@ body {
 .entrada-instagram {
   float: inline-start;
   background-color: #1c5380;
-  width: 300px;
-  height: 70px;
 }
 
 button {
   background-color: #1c5380;
-  border: 2px solid navy;
+  border: 1px solid navy;
   box-shadow: navy;
   color: #8fa7bd;
   font-weight: bold;
   align-items: center;
-  border-radius: 6px;
 }
+
 
 .home-button {
   float: inline-start;
-  width: 60px;
-  height: 70px;
+  width: 95px;
+  margin-top:75px;
+  margin-left: 15px;
 }
-
 .box-header {
   background-color: white;
   justify-content: space-between;
@@ -86,6 +78,7 @@ button {
 .texto {
   text-align: left;
   padding: 15px;
+  background-color: white;
 }
 
 h1 {
@@ -121,30 +114,32 @@ nav a {
 }
 
 .column1 {
-  background-color: transparent;
-  width: 45%;
+  background-color: white;
+  width: 40%;
 }
 
 .column2 {
-  background-color:transparent;
-  width: 45%;
+  background-color:#1c5380;
+  width: 40%;
 }
 
 .fila1 {
-  background-color: transparent;
+  background-color: greenyellow;
   justify-content: center;
   align-content: center;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
+  justify-content: baseline;
+  
 }
 
 .fila2 {
-  background-color: transparent;
+  background-color: hotpink;
   width: inherit;
 }
 
 .fila3 {
-  background-color: transparent;
+  background-color: indigo;
 }
 
 * {
@@ -155,8 +150,8 @@ nav a {
 .tabla {
   display: flex;
   flex-direction: row;
-  margin-top: 10%;
-  background-color: transparent;
+  margin-top: 20%;
+  background-color: #1c5380;
 }
 .column1, .column2 {
 
@@ -176,10 +171,18 @@ nav a {
   width: inherit;
 }
 
-@media (max-width:440px) {
-  .tabla {
-    display: block;
-    margin: 0;
-  }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
